@@ -1,0 +1,17 @@
+{
+    "name": "mahdyaralipor/crudforge",
+    "description": "Zero-dependency PHP CRUD generator for APIs, models, controllers and more.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CrudForge\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/crudforge"
+    ]
+}
