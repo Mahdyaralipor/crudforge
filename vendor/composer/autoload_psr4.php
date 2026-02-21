@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Mahdyaralipor\\Crudforge\\' => array($baseDir . '/src'),
+    'CrudForge\\' => array($baseDir . '/src'),
 );
